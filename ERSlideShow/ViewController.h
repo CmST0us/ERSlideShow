@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "ERSlideShow/ERSlideShow.h"
+@interface ViewController : UIViewController<ERSlideShowDelegate>
 
 
 @end
