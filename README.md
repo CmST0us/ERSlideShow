@@ -1,13 +1,13 @@
-#ERSlideShow
+# ERSlideShow
 
 ERSlideShow 是一款iOS平台能支持Auto Layout的轮播组件
 
-##特性
+## 特性
 1. 支持使用Interface Builder可视化Auto Layout创建实例
 2. 支持使用传统`initWithFrame:`创建实例
 3. 支持使用`addConstraints:`添加约束
 
-##示例
+## 示例
 
 ```
 //从StoryBoard创建
