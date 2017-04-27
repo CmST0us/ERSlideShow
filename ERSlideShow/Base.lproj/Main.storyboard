@@ -16,12 +16,59 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Dy-Yl-Mks" customClass="ERSlideShow">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="vGz-Li-Qi7"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="vGz-Li-Qi7"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="vGz-Li-Qi7"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0Dy-Yl-Mks" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="00U-cI-0Ob"/>
+                            <constraint firstAttribute="trailing" secondItem="0Dy-Yl-Mks" secondAttribute="trailing" id="YQz-2x-Yib"/>
+                            <constraint firstItem="0Dy-Yl-Mks" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZTv-nH-CUw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="0Dy-Yl-Mks"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="00U-cI-0Ob"/>
+                                <exclude reference="YQz-2x-Yib"/>
+                                <exclude reference="ZTv-nH-CUw"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="0Dy-Yl-Mks"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="00U-cI-0Ob"/>
+                                <include reference="YQz-2x-Yib"/>
+                                <include reference="ZTv-nH-CUw"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="slideShow" destination="0Dy-Yl-Mks" id="cMD-JC-q4I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="147" y="429"/>
+            <point key="canvasLocation" x="591" y="382"/>
         </scene>
     </scenes>
 </document>

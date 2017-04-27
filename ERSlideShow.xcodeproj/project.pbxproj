@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F2492C41EB062EE0020CD72 /* ERSlideShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2492C31EB062EE0020CD72 /* ERSlideShowUITests.m */; };
 		4F9F05A51EAE145D005171ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9F05A41EAE145D005171ED /* main.m */; };
 		4F9F05A81EAE145D005171ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9F05A71EAE145D005171ED /* AppDelegate.m */; };
 		4F9F05AB1EAE145D005171ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9F05AA1EAE145D005171ED /* ViewController.m */; };
@@ -17,20 +16,7 @@
 		4F9F05BD1EAE1512005171ED /* ERSlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9F05BC1EAE1512005171ED /* ERSlideShow.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4F2492C61EB062EE0020CD72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4F9F05981EAE145D005171ED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F9F059F1EAE145D005171ED;
-			remoteInfo = ERSlideShow;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		4F2492C11EB062EE0020CD72 /* ERSlideShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERSlideShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F2492C31EB062EE0020CD72 /* ERSlideShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSlideShowUITests.m; sourceTree = "<group>"; };
-		4F2492C51EB062EE0020CD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F9F05A01EAE145D005171ED /* ERSlideShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERSlideShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9F05A41EAE145D005171ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F9F05A61EAE145D005171ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,13 +32,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F2492BE1EB062EE0020CD72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4F9F059D1EAE145D005171ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,20 +42,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F2492C21EB062EE0020CD72 /* ERSlideShowUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4F2492C31EB062EE0020CD72 /* ERSlideShowUITests.m */,
-				4F2492C51EB062EE0020CD72 /* Info.plist */,
-			);
-			path = ERSlideShowUITests;
-			sourceTree = "<group>";
-		};
 		4F9F05971EAE145D005171ED = {
 			isa = PBXGroup;
 			children = (
 				4F9F05A21EAE145D005171ED /* ERSlideShow */,
-				4F2492C21EB062EE0020CD72 /* ERSlideShowUITests */,
 				4F9F05A11EAE145D005171ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				4F9F05A01EAE145D005171ED /* ERSlideShow.app */,
-				4F2492C11EB062EE0020CD72 /* ERSlideShowUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,24 +95,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F2492C01EB062EE0020CD72 /* ERSlideShowUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F2492CA1EB062EE0020CD72 /* Build configuration list for PBXNativeTarget "ERSlideShowUITests" */;
-			buildPhases = (
-				4F2492BD1EB062EE0020CD72 /* Sources */,
-				4F2492BE1EB062EE0020CD72 /* Frameworks */,
-				4F2492BF1EB062EE0020CD72 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4F2492C71EB062EE0020CD72 /* PBXTargetDependency */,
-			);
-			name = ERSlideShowUITests;
-			productName = ERSlideShowUITests;
-			productReference = 4F2492C11EB062EE0020CD72 /* ERSlideShowUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		4F9F059F1EAE145D005171ED /* ERSlideShow */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F9F05B71EAE145D005171ED /* Build configuration list for PBXNativeTarget "ERSlideShow" */;
@@ -171,10 +121,6 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = CmST0us;
 				TargetAttributes = {
-					4F2492C01EB062EE0020CD72 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 4F9F059F1EAE145D005171ED;
-					};
 					4F9F059F1EAE145D005171ED = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -194,19 +140,11 @@
 			projectRoot = "";
 			targets = (
 				4F9F059F1EAE145D005171ED /* ERSlideShow */,
-				4F2492C01EB062EE0020CD72 /* ERSlideShowUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4F2492BF1EB062EE0020CD72 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4F9F059E1EAE145D005171ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,14 +158,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4F2492BD1EB062EE0020CD72 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F2492C41EB062EE0020CD72 /* ERSlideShowUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4F9F059C1EAE145D005171ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -240,14 +170,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4F2492C71EB062EE0020CD72 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4F9F059F1EAE145D005171ED /* ERSlideShow */;
-			targetProxy = 4F2492C61EB062EE0020CD72 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4F9F05AC1EAE145D005171ED /* Main.storyboard */ = {
@@ -269,28 +191,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4F2492C81EB062EE0020CD72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ERSlideShowUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CmST0us.ERSlideShowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ERSlideShow;
-			};
-			name = Debug;
-		};
-		4F2492C91EB062EE0020CD72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ERSlideShowUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CmST0us.ERSlideShowUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ERSlideShow;
-			};
-			name = Release;
-		};
 		4F9F05B51EAE145D005171ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -400,15 +300,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F2492CA1EB062EE0020CD72 /* Build configuration list for PBXNativeTarget "ERSlideShowUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4F2492C81EB062EE0020CD72 /* Debug */,
-				4F2492C91EB062EE0020CD72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4F9F059B1EAE145D005171ED /* Build configuration list for PBXProject "ERSlideShow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
